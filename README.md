@@ -1,4 +1,4 @@
-# BrowserExtensionsAudit.ps1
+# Browser Extensions Audit
 
 ## Description
 This PowerShell script detects and retrieves detailed information about installed extensions for Chrome and Edge browsers across all user profiles on a Windows machine. It outputs the extension details, including name, version, description, installation date, and more.
@@ -18,7 +18,7 @@ This PowerShell script detects and retrieves detailed information about installe
 2. Navigate to the directory where `BrowserExtensionsAudit.ps1` is located.
 3. Run the script:
     ```powershell
-    ./BrowserExtensionsAudit.ps1
+    .\BrowserExtensionsAudit.ps1
     ```
 
 ## Output
@@ -36,7 +36,7 @@ The script outputs a formatted table of extension details, including:
 
 ## Example
 ```powershell
-PS C:\> ./BrowserExtensionsAudit.ps1
+PS C:\> .\BrowserExtensionsAudit.ps1
 
 Browser ProfilePath            User       ComputerName ExtensionID    Name        Version Description URL InstallDate
 ------- ------------            ----       ------------ -----------    ----        ------- ----------- --- -----------
